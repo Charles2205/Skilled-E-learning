@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
@@ -11,15 +12,15 @@ body{
     border: 1px solid greenyellow;
     display: flex;
     margin:auto;
-    width:50%;
-    height: 100vh;
+    /* width:20%; */
+    height: 200vh;
 }
 #nav-bar{
 border: 1px solid gold;
-width:inherit;
+width:80%;
 height: 70px;
 position: absolute;
-left: 25%;
+left:15%;
 top:20px;
 display: flex;
 justify-content: space-between;
@@ -46,16 +47,117 @@ justify-content: space-between;
     position: relative;
     display: flex;
     margin: auto;
-    width: 100%;
+    width: 50%;
     padding: 15px;
     border-radius: 10px;
     justify-content: center;
+    z-index: 1;
 }
  #second-card{
     border: 1px solid green;
-    width: inherit;
-    height: 40%;
+    width: 40%;
+    height: 50%;
     position:absolute;
-    top:30%;
+    top:20%;
+    left: 15%;
+    display: flex;   
+}
+h1{
+    color:#13183F;
+    font-size: 5rem;
+    font-weight:bolder;
+    margin-top:20px; 
+}
+h2{
+    margin-top:20px; 
+    font-weight: 300;   
+    font-size: 1.5rem;
+    color: #83869A;
+}
+#text-btn{
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+}
 
+#grad-btn{
+    margin-top:20px ;
+    text-decoration: none;
+   border: 1px solid black;
+   display: flex;
+   width:40%;
+   padding:20px;
+   justify-content: center;
+   border-radius: 20px;
+    /* background-color: linear-gradient(to bottom, rgb(254, 107, 76),rgb(240, 44, 162)); */   
+}
+#pic-div{
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    height: 70vh;
+    width: 50%;
+    overflow: hidden;
+}
+#img{
+    
+    /* width: 50%;
+    height: 50%; */
+    left: 10%;
+    bottom:30%;
+    scale: 100%;
+    /* width: 50%; */
+    position: relative;
+}
+#last-section{
+    border: 1px solid salmon ;
+    width: 80%;
+    height: 40%;
+    position: relative;
+    left: 15%;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    
+}
+.card{
+    border-radius: 5%;   
+    background-color: #F74A7A;
+    /* width:25%; */
+    height: 100%;
+    flex-basis: 30%;
+}
+#card-label{
+    border: 1px solid green;
+    display: block;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-left:20px;
+    margin-top: 25px;
+   /* / position: absolute; */
+    top:20px;
+    
+}
+.inner-card{
+    border: 1px solid green;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content:space-between
+
+}
+.card-ani{
+    border: 1px solid green;
+    display: block;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-left:20px;
+    margin-top: 25px;
+   /* / position: absolute; */
+    top:30px;
 }
